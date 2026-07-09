@@ -1,0 +1,17 @@
+# Dependências
+node_modules/
+
+# Build
+site/dist/
+dist/
+
+# Segredos — nunca commitar
+.env
+
+# Dados voláteis / runtime (nunca devem existir localmente, mas por segurança)
+tmp/
+uploads/
+
+# Sistema
+.DS_Store
+*.log
